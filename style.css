@@ -1,0 +1,120 @@
+body {
+  font-family: sans-serif;
+  background: #fce4ec;
+  text-align: center;
+  padding: 40px;
+}
+
+#quiz-container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+}
+
+button.choice {
+  display: block;
+  margin: 10px auto; /* 中央寄せしたいならこう */
+  padding: 15px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f48fb1;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button.choice:hover {
+  background-color: #ec407a; /* ホバー */
+}
+
+#result {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+#progress {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+
+
+
+#result-box {
+  background: #fff0f6;
+  border: 3px solid #f8bbd0;
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 30px auto;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#result-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #d81b60;
+  margin-bottom: 15px;
+}
+
+#result-image {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid #f06292;
+  margin-bottom: 20px;
+}
+
+#mbti-details p {
+  text-align: left;
+  margin: 10px 0;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.label {
+  font-weight: bold;
+  color: #ad1457;
+}
+
+#compatibility-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px; /* 要素間の余白 */
+  margin-top: 30px;
+}
+
+#compatibility-section h3 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #ad1457;
+}
+
+#compatibility-section > div {
+  background: #fff0f6;
+  border: 2px solid #f8bbd0;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 180px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+#compatibility-section img {
+  width: 100px;
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid #f06292;
+  margin-top: 8px;
+}
