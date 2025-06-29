@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>MBTIセリフ診断</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</head>
+<body>
+<div id="quiz-container">
+  <div id="progress"></div>
+  <div id="question"></div>
+  <div id="choices">
+    <button class="choice" id="choiceA"></button>
+    <button class="choice" id="choiceB"></button>
+  </div>
+</div>
+
+
+<div id="result" style="display:none;">
+  <div id="result-box">
+    <div id="result-text"></div>
+
+    <img id="result-image" src="" alt="MBTI結果">
+
+    <div id="mbti-details">
+      <p><span class="label">💡 特徴：</span><span id="mbti-traits"></span></p>
+      <p><span class="label">🌟 長所と短所：</span><span id="mbti-strengths-weaknesses"></span></p>
+      <p><span class="label">🎯 あるある：</span><span id="mbti-common"></span></p>
+      <p><span class="label">🧭 レア度：</span><span id="mbti-rarity"></span></p>
+    </div>
+  </div>
+
+
+<div id="compatibility-section">
+  <div id="best-match">
+    <h4>相性が良いタイプ：<span id="best-match-type"></span></h4>
+    <img id="best-match-image" src="" alt="相性が良いタイプの画像">
+  </div>
+  <div id="worst-match">
+    <h4>相性が悪いタイプ：<span id="worst-match-type"></span></h4>
+    <img id="worst-match-image" src="" alt="相性が悪いタイプの画像">
+  </div>
+</div>
+
+</div>
+
+
+
+</div>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
